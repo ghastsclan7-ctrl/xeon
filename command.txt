@@ -1,0 +1,15 @@
+termux link: https://f-droid.org/repo/com.termux_1022.apk
+
+termux-change-repo
+pkg update -y && pkg upgrade -y && pkg install -y nodejs yarn git python make clang ffmpeg3
+termux-setup-storage 
+cd /sdcard/xbugbot
+pkg install yarn
+pkg install ffmpeg
+yarn install
+npm start
+
+basic commands for termux:
+to stop the bot: ctrl+c 2 times
+to start the bot: npm start
+to delete session: rm -rf session
