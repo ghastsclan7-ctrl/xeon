@@ -2,9 +2,9 @@ const fs = require('fs')
 
 global.prefa = ['','!','.',',','🗿']
 
-global.licenseKey = "abc";  //put ur key here
-global.waownernumber = ["56932815564"]
-global.tgownername = 'DGXeon13'
+global.licenseKey = "XEON-D6BDD3365B81DE16830BA1BD844B593F";  //put ur key here
+global.waownernumber = ["2348022159244"]
+global.tgownername = 'GREY'
 
 let file = require.resolve(__filename)
 require('fs').watchFile(file, () => { 
